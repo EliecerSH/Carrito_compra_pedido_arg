@@ -9,7 +9,7 @@ public class Estado_pedido {
     private int id_estado;
     private String descripcion;
 
-    private int getId_estado() {
+    public int getId_estado() {
         return id_estado;
     }
     public void setId_estado(int id_estado) {

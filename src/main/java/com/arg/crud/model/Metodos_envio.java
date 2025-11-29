@@ -11,7 +11,7 @@ public class Metodos_envio {
     private String descricion;
     private float costo;
 
-    private int getId_metodo_envio() {
+    public int getId_metodo_envio() {
         return id_metodo_envio;
     }
     public void setId_metodo_envio(int id_metodo_envio) {

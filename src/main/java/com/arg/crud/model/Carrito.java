@@ -11,7 +11,7 @@ public class Carrito {
     private LocalDate fecha_creacion;
     private String estado;
 
-    private int getId_carrito() {
+    public int getId_carrito() {
         return id_carrito;
     }
     public void setId_carrito(int id_carrito) {

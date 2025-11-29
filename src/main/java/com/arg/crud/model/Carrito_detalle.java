@@ -11,7 +11,7 @@ public class Carrito_detalle {
     private int id_producto;
     private int cantidad;
 
-    private int getId_detalle() {
+    public int getId_detalle() {
         return id_detalle;
     }
     public void setId_detalle(int id_detalle) {
