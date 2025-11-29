@@ -10,7 +10,7 @@ public class Metodos_pago {
     private String nombre_metodo;
     private String descripcion;
 
-    private int getId_metodo_pago() {
+    public int getId_metodo_pago() {
         return id_metodo_pago;
     }
     public void setId_metodo_pago(int id_metodo_pago) {

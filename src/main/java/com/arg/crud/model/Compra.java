@@ -8,14 +8,14 @@ public class Compra {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_compra;
     private int id_carrito;
-    private int cliente;
+    private int id_cliente;
     private String direccion_envio;
     private int id_metodo_pago;
     private int id_metodo_envio;
     private LocalDate fecha_compra;
     private Float total;
 
-    private int getId_compra() {
+    public int getId_compra() {
         return id_compra;
     }
     public void setId_compra(int id_compra) {
@@ -29,11 +29,11 @@ public class Compra {
         this.id_carrito = id_carrito;
     }
 
-    public int getCliente() {
-        return cliente;
+    public int getId_cliente() {
+        return id_cliente;
     }
-    public void setCliente(int cliente) {
-        this.cliente = cliente;
+    public void setId_cliente(int id_cliente) {
+        this.id_cliente = id_cliente;
     }
 
     public String getDireccion_envio() {

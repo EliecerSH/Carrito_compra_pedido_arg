@@ -13,14 +13,14 @@ public class Detalle_pedidos {
     private float precio_unitario;
     private float subtotal;
 
-    private int getId_detalle() {
+    public int getId_detalle() {
         return id_detalle;
     }
-    private void setId_detalle(int id_detalle) {
+    public void setId_detalle(int id_detalle) {
         this.id_detalle = id_detalle;
     }
 
-    private int getId_pedido() {
+    public int getId_pedido() {
         return id_pedido;
     }
     public void setId_pedido(int id_pedido) {
